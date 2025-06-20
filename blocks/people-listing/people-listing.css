@@ -1,0 +1,84 @@
+.people-listing-wrapper > .people-listing.block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2em;
+}
+
+.people-listing-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2em;
+}
+
+.people-listing-item-wrapper {
+    /* Card/item styles only */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    background: #fff;
+    padding: 1.5em 1em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 22%;
+    max-width: 22%;
+    min-width: 200px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+  .people-listing-item-wrapper {
+    flex-basis: 30%;
+    max-width: 30%;
+  }
+}
+@media (max-width: 900px) {
+  .people-listing-item-wrapper {
+    flex-basis: 45%;
+    max-width: 45%;
+  }
+}
+@media (max-width: 600px) {
+  .people-listing-item-wrapper {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+.people-listing-picture ,
+.people-listing-picture img {
+    border-radius: 50%;
+    height: 164px;
+    object-fit: cover;
+    width: 164px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.people-listing-name {
+    margin-bottom: .25em;
+    margin-top: 0;
+}
+.people-listing-desc {
+    color: #202020;
+    font-size: 14px;
+
+}
+.people-listing-social a{
+    height: 3pc;
+    width: 3pc;
+    background-color: #202020;
+    color: #ebebeb;
+    font-size: 16px;
+    display: inline-block;
+}
+.people-listing-social .icon {
+    font-size: 1.25em;
+    color: white;
+    padding-left: 14px;
+    padding-top: 13px;
+}
