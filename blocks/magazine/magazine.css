@@ -1,0 +1,25 @@
+.magazine-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.magazine-list li {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 12px;
+  background: #fff;
+  transition: transform 0.2s ease;
+}
+
+.magazine-list li:hover {
+  transform: scale(1.02);
+}
+
+.magazine-list img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

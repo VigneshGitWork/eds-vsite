@@ -1,0 +1,4 @@
+indices:
+  magazine:
+    data: /magazine-data.xlsx
+    key: path
