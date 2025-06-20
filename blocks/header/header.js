@@ -136,16 +136,17 @@ export default async function decorate(block) {
   if (navSections) {
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
       if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
-        const currentLink = navSection.querySelector('a');
-          const isActive = (currentLink === location.pathname || currentLink.href === location.href);
-          if(isActive){
-            navSection.classList.add('active-nav');
-          }
+      const currentLink = navSection.querySelector('a');
+      const isActive = (currentLink === window.location.pathname
+        || currentLink.href === window.location.href);
+      if (isActive) {
+        navSection.classList.add('active-nav');
+      }
       navSection.addEventListener('click', () => {
         if (isDesktop.matches) {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
           toggleAllNavSections(navSections);
-        
+
           navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
         }
       });

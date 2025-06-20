@@ -1,7 +1,7 @@
 export default function decorate(block) {
   const url = '/query-index.json?sheet=magazine&limit=10';
   fetch(url)
-    .then(resp => resp.json())
+    .then((resp) => resp.json())
     .then((json) => {
       const items = json.data;
       const ul = document.createElement('ul');
@@ -20,7 +20,7 @@ export default function decorate(block) {
       });
 
       block.innerHTML = '';
-      let title = document.createElement('h2');
+      const title = document.createElement('h2');
       title.textContent = 'Magazine Articles';
       block.append(title);
       block.append(ul);

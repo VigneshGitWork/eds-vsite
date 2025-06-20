@@ -33,6 +33,7 @@
     justify-content: center;
     background-color: #ebebeb;
 }
+
 .teaser .teaser-label {
     font-weight: 700;
     font-size: 18px;
@@ -40,6 +41,7 @@
     margin: 0 0 13.5px;
     text-align: justify;
 }
+
 .teaser .teaser-title {
     font-size: 36px;
     font-weight: 400;
@@ -57,13 +59,13 @@
     background-color: #ffea00;
     padding: 1em 2.5em;
     text-transform: uppercase;
-    color: var(--textColor, #202020);
+    color:  #202020;
     font-size: 16px;
     font-weight: 600;
     border-radius: 0;
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
     .teaser .teaser-wrapper {
         flex-direction: column-reverse;
     }
