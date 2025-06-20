@@ -19,6 +19,7 @@ header nav {
   height: var(--nav-height);
   padding: 0 24px;
   font-family: var(--body-font-family);
+  
 }
 
 header nav[aria-expanded='true'] {
@@ -36,12 +37,22 @@ header nav[aria-expanded='true'] {
     justify-content: space-between;
     gap: 0 32px;
     max-width: 1264px;
-    padding: 0 32px;
+    padding-bottom: 12px;
+        padding-top: 22px;
+  }
+
+  header .active-nav {
+    background-color: #ffea00;
   }
 
   header nav[aria-expanded='true'] {
     min-height: 0;
     overflow: visible;
+  }
+
+  header li {
+    padding: 15px 17px;
+    text-decoration: none;
   }
 }
 
@@ -152,7 +163,7 @@ header nav .nav-brand img {
 /* sections */
 header nav .nav-sections {
   grid-area: sections;
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
   display: none;
   visibility: hidden;
 }

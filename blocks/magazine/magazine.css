@@ -1,0 +1,44 @@
+.magazine-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.magazine-list li {
+  padding: 1rem;
+  border-radius: 12px;
+  background: #fff;
+  transition: transform 0.2s ease;
+}
+
+.magazine-list li:hover {
+  transform: scale(1.02);
+}
+
+.magazine-list img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.magazine .magazine-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #202020;
+    text-transform: uppercase;
+}
+
+.magazine .magazine-desc {
+    color: dimgray;
+    display: block;
+    font-size: 14px;
+    margin-top: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 260px;
+}

@@ -1,0 +1,17 @@
+indices:
+  magazine:
+    data: /magazine-data.xlsx
+    key: path
+    properties:
+      path:
+        selectFirst: true
+        value: path
+      title:
+        selectFirst: true
+        value: title
+      description:
+        selectFirst: true
+        value: description
+      image:
+        selectFirst: true
+        value: image
