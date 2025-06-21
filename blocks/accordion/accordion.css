@@ -2,6 +2,11 @@
     border-bottom: 2px solid #ebebeb;
 }
 
+.accordion-item-label p {
+    color: #000;
+    font-size: 20px;
+}
+
 .accordion details p {
     margin-bottom: 0.8em;
 }
@@ -18,11 +23,6 @@
 
 .accordion details[open] {
     border-bottom: 0;
-}
-
-.accordion-item-label p {
-    color: #000;
-    font-size: 20px;
 }
 
 .accordion details summary::-webkit-details-marker {
@@ -51,9 +51,4 @@
     font-size: 14px;
     line-height: 24px;
     color: #202020;
-}
-
-.accordion details[open] .accordion-item-body {
-    /* border-top: 1px solid #dadada; */
-    /* background-color: var(--background-color); */
 }
