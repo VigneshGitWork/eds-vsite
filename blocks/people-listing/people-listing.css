@@ -1,7 +1,7 @@
 .people-listing-wrapper > .people-listing.block {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: stretch;
     gap: 2em;
 }

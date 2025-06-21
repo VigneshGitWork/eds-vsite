@@ -17,7 +17,9 @@
   --dark-color: #505050;
   --text-color: #131313;
   --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --link-hover-color: #ffea00;
+  --link-text-color: #202020;
+  --link-bg-color: #ffea00;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -162,7 +164,7 @@ a:any-link {
 
 a:hover {
   color: var(--link-hover-color);
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 /* buttons */
@@ -173,16 +175,16 @@ button {
   max-width: 100%;
   margin: 12px 0;
   border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
+  /* border-radius: 2.4em; */
+  padding: 1em 2.5em;
   font-family: var(--body-font-family);
   font-style: normal;
   font-weight: 500;
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  background-color: var(--link-color);
-  color: var(--background-color);
+  background-color: var(--link-bg-color);
+  color: var(--link-text-color);
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
