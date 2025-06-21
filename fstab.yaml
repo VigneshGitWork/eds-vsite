@@ -1,7 +1,4 @@
 mountpoints:
-  /:
-    url: https://drive.google.com/drive/folders/1pE8NgelwcBoKGKAkIUFLDFlWKBU_JkLB
-  /404:
-    url: https://docs.google.com/document/d/10MCeHvFFyMylt4jvkPnv8jXwH574qNeFvfQZJ1smb0Q
-  /fragments/feature-article:
-    url: https://docs.google.com/document/d/1o8Ti-IOiscRwmvSRuERw4HmEmFeEEDlsatRECsfzqis
+  /: https://drive.google.com/drive/folders/1pE8NgelwcBoKGKAkIUFLDFlWKBU_JkLB
+  /404: https://docs.google.com/document/d/10MCeHvFFyMylt4jvkPnv8jXwH574qNeFvfQZJ1smb0Q
+  /fragments/feature-article: https://docs.google.com/document/d/1o8Ti-IOiscRwmvSRuERw4HmEmFeEEDlsatRECsfzqis
