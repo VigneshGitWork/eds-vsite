@@ -1,10 +1,8 @@
 mountpoints:
   /:
-    url: https://adobe.sharepoint.com/sites/nativeapp-site/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fnativeapp%2Dsite%2FShared%20Documents%2Fvsite&viewid=966c7a3b%2D8b72%2D4970%2D9cea%2D6c84c1bb4f34
-
-folders:
+    url: https://adobe.sharepoint.com/:f:/r/sites/nativeapp-site/Shared%20Documents/vsite?csf=1&web=1&e=PkxE9j
   /404:
-    url: https://adobe.sharepoint.com/sites/nativeapp-site/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fnativeapp%2Dsite%2FShared%20Documents%2Fvsite&viewid=966c7a3b%2D8b72%2D4970%2D9cea%2D6c84c1bb4f34
+    url: https://adobe.sharepoint.com/:f:/r/sites/nativeapp-site/Shared%20Documents/vsite?csf=1&web=1&e=PkxE9j
 
   /fragments/feature-article2:
-    url: https://adobe.sharepoint.com/sites/nativeapp-site/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fnativeapp%2Dsite%2FShared%20Documents%2Fvsite&viewid=966c7a3b%2D8b72%2D4970%2D9cea%2D6c84c1bb4f34
+    url: https://adobe.sharepoint.com/:f:/r/sites/nativeapp-site/Shared%20Documents/vsite?csf=1&web=1&e=PkxE9j
