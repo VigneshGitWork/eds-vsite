@@ -1,10 +1,8 @@
 mountpoints:
   /:
-    url: https://adobe-my.sharepoint.com/my?id=%2Fpersonal%2Fvvenkateshku%5Fadobe%5Fcom%2FDocuments%2Fvsite
-
-folders:
+    url: https://adobe.sharepoint.com/:f:/r/sites/nativeapp-site/Shared%20Documents/vsite?csf=1&web=1&e=PkxE9j
   /404:
-    url: https://adobe-my.sharepoint.com/my?id=%2Fpersonal%2Fvvenkateshku%5Fadobe%5Fcom%2FDocuments%2Fvsite
+    url: https://adobe.sharepoint.com/:f:/r/sites/nativeapp-site/Shared%20Documents/vsite?csf=1&web=1&e=PkxE9j
 
-  /fragments/feature-article:
-    url: https://adobe-my.sharepoint.com/my?id=%2Fpersonal%2Fvvenkateshku%5Fadobe%5Fcom%2FDocuments%2Fvsite
+  /fragments/feature-article2:
+    url: https://adobe.sharepoint.com/:f:/r/sites/nativeapp-site/Shared%20Documents/vsite?csf=1&web=1&e=PkxE9j
