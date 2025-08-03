@@ -1,10 +1,10 @@
 mountpoints:
   /:
-    url: https://drive.google.com/drive/folders/1pE8NgelwcBoKGKAkIUFLDFlWKBU_JkLB
+    url: https://adobe-my.sharepoint.com/:f:/r/personal/vvenkateshku_adobe_com/Documents/vsite?csf=1&web=1&e=sJ337S
 
 folders:
   /404:
-    url: https://docs.google.com/document/d/10MCeHvFFyMylt4jvkPnv8jXwH574qNeFvfQZJ1smb0Q
+    url: https://adobe-my.sharepoint.com/:f:/r/personal/vvenkateshku_adobe_com/Documents/vsite?csf=1&web=1&e=sJ337S
 
   /fragments/feature-article:
-    url: https://docs.google.com/document/d/1o8Ti-IOiscRwmvSRuERw4HmEmFeEEDlsatRECsfzqis
+    url: https://adobe-my.sharepoint.com/:f:/r/personal/vvenkateshku_adobe_com/Documents/vsite?csf=1&web=1&e=sJ337S
